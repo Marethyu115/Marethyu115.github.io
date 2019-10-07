@@ -1,0 +1,114 @@
+div{
+	border: 1px solid black;
+	margin: 20px;
+	background-color: #8DE4FF;
+}
+body{ 
+	margin: 0px;
+	background-color: #0F2557;
+	width: 100%;	
+}
+div#nav {
+	position: sticky;
+	top: 0px;
+	background-color: #90FFDC;
+	display: block;
+	border: 0px;
+	margin: auto;
+	z-index: 6969696969;
+	width: 96%;
+}
+
+div#nav ul{
+	padding: 0px;
+}
+div#nav li{
+	border: 2px;
+	display: inline;
+	list-style-type: none;
+	font-size: 120px;
+	margin: 0px;
+}
+
+div#nav a{
+	text-decoration: none;
+}
+div#nav button {
+  background-color: #90FFDC;
+  border: 1px;
+  color: #3778C2;
+  padding: 10px 24px;
+  cursor: pointer; 	
+  float: left;
+  width:50%;
+  height: 80px;
+}
+
+div#nav:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div#nav button:not(:last-child) {
+  border-right: none;
+}
+
+div#nav button:hover {
+	background-color: #3778C2;
+	color: #90FFDC;
+}
+div#subtitle{
+	width: 100%;
+}
+div#subbox {
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	float: left;
+	left: 10px;
+	width: 30%;
+	height: 495px;
+	background-color: #8DE4FFCC;
+	padding: 5px;
+}	
+div#mainbox {
+	font-size: 32px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	width: 63%;
+	height: 505px;
+}
+p{
+	margin: 0px;
+}
+div#water img{
+	width: 100%;
+	height: 400px;
+	margin: 0px;
+}
+div#water {
+	border: 0px;
+	background-color: #0F2557;
+	margin: 0px;
+	float: bottom;
+}
+div#mainbox p{
+	text-align: center;
+}
+button{ 
+	font-size: 40px;
+}
+mark#headmain{
+	font-size: 65px;	
+	background-color: #8DE4FF;	
+}
+mark#headsub{
+	font-size: 65px;	
+	background-color: #8DE4FF00;	
+}
+
