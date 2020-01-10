@@ -58,7 +58,7 @@ a img{
 }
 
 #home{
-    background: url(/img/home.jpg) no-repeat center center fixed !important;
+    background: url(../img/home.jpg) no-repeat center center fixed !important;
     display: table;
     height: 100%;
     width: 100%;
