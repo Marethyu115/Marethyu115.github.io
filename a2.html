@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--meta tags-->
+        <meta charset="utf-8">
+        <meta name="description" content="CS3 Q2 Project of K04, K14, and K20.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Persus Atienza, John Patrick Santelices, Gian Paolo Vergara">
+        <title>Philippine Drainage System</title>   <!--page title-->
+        <link rel="shortcut icon" type="image/x-icon" href="/img/icon.png">  <!--icon in tab-->
+        <link rel="stylesheet" type="text/css" href="/css/style.css">    <!--css-->
+        <!--bootstrap links-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/6f29f689b5.js" crossorigin="anonymous"></script>
+        
+    </head>
+    
+    <body class="themeChangeToggle">    
+        <header class="sticky-top themeChangeToggle">   <!--header and navbar-->
+            <nav class="container nav navbar-expand-md navbar-light navbar-style sticky-top themeChangeToggle">
+                <a href="#"><img src="/img/icon.png"></a>    <!--icon navbar 'brand'-->
+                <!--theme change button-->
+                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle" type="button" id="themeButton"><i class="fas fa-palette"></i></button>
+                <!--font size increase button   ONLY VISIBLE IN MD AND LG SCREENS-->
+                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-md-block" type="button" id="fontUpButton">Font <i class="fas fa-arrow-up"></i></button>
+                <!--font size decrease button   ONLY VISIBLE IN MD AND LG SCREENS-->
+                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-md-block" type="button" id="fontDownButton">Font <i class="fas fa-arrow-down"></i></button>
+                <!--navbar collapsing menu button-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--navbar-->
+                <div class="collapse navbar-collapse themeChangeToggle" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">     <!--align nav items right--> 
+                        <li class="nav-item active">                            
+                            <a class="nav-link" href="/htdocs/index/index.html">Home</a>  <!--index.html-->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Pages</a> <!--html pages-->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/htdocs/pages/p1.html">Advantages</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/htdocs/pages/p2.html">Disadvantages</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/htdocs/pages/p3.html">Water-Borne Diseases</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/htdocs/pages/p4.html">Water Security</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/htdocs/pages/p5.html">Locations</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">                            
+                            <a class="nav-link" href="/htdocs/read%20more/r.html">Read More</a>  <!--author write-ups-->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">About</a>     <!--about authors and sources-->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/htdocs/about/a1.html">Authors</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/htdocs/about/a2.html">Bibliography</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <section>   <!--page head/title-->
+                <div class="headingPadding">
+                    <div class="container">
+                        <div class="row mx-auto">
+                            <div class="col-xs-12 mx-auto">
+                                <h1 class="heading">Bibliography</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="padding"></div>
+            </section>
+            
+            <section>
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 indentSource">    <!--one col for xs-sm, 2 cols for md-lg-->
+                            <p>doh.gov.ph (Eds.). (2017, July 29). WATER-BORNE DISEASES ADVISORY 29 JULY 2017. Retrieved from: <br>
+                                <a href="https://www.doh.gov.ph/node/10648">https://www.doh.gov.ph/node/10648</a>       
+                            </p>
+                            <p>who.int (Eds.). (N.D.)Flooding and communicable diseases fact sheet. Retrieved from: <br>
+                                <a href="https://www.who.int/hac/techguidance/ems/flood_cds/en/">https://www.who.int/hac/techguidance/ems/flood_cds/en/</a>       
+                            </p>
+                            <p>Paris, J. (2019, August 6). DOH declares national dengue epidemic. Retrieved from: <br>
+                                <a href="https://www.rappler.com/nation/237196-doh-declares-national-dengue-epidemic-august-2019">https://www.rappler.com/nation/237196-doh-declares-national-dengue-epidemic-august-2019</a>       
+                            </p>
+                            <p>Borlongan, J. (N.D.). Drainage System Advantages & Disadvantages. Retrieved from: <br>
+                                <a href="https://www.hunker.com/13425601/drainage-system-advantages-disadvantages">https://www.hunker.com/13425601/drainage-system-advantages-disadvantages</a>       
+                            </p>
+                            <p>Patinio, F. (2019, September 4). DPWH completes P19-M drainage system in Manila. Retrieved from: <br>
+                                <a href="https://www.pna.gov.ph/articles/1079563">https://www.pna.gov.ph/articles/1079563</a>       
+                            </p>
+                            <p>doh.gov.ph (Eds.). (2017, July 29). WATER-BORNE DISEASES ADVISORY 29 JULY 2017. Retrieved from: <br>
+                                <a href="https://www.doh.gov.ph/node/10648">https://www.doh.gov.ph/node/10648</a>       
+                            </p>
+                            <p>who.int (Eds.). (N.D.).  Flooding and communicable diseases fact sheet. Retrieved from: <br>
+                                <a href="https://www.who.int/hac/techguidance/ems/flood_cds/en/">https://www.who.int/hac/techguidance/ems/flood_cds/en/</a>       
+                            </p>                        
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p>
+                                <a href="https://www.thehealthsite.com/diseases-conditions/food-poisoning-causes-risk-factors-and-diagnosis-f1015-339368/">https://www.thehealthsite.com/diseases-conditions/food-poisoning-causes-risk-factors-and-diagnosis-f1015-339368/</a><br>
+                                <a href="https://www.shutterstock.com/search/leptospirosis">https://www.shutterstock.com/search/leptospirosis</a><br>
+                                <a href="https://www.creative-biolabs.com/vaccine/vibrio-cholerae-vaccines.htm">https://www.creative-biolabs.com/vaccine/vibrio-cholerae-vaccines.htm</a><br>
+                                <a href="https://www.businessinsider.com/r-drug-resistant-superbug-strain-of-typhoid-spreads-worldwide-2015-5">https://www.businessinsider.com/r-drug-resistant-superbug-strain-of-typhoid-spreads-worldwide-2015-5</a><br>
+                                <a href="https://www.bbc.com/news/uk-england-50398877">https://www.bbc.com/news/uk-england-50398877</a><br>
+                                <a href="https://www.inc.com/justin-bariso/can-you-fix-a-toxic-workplace-you-can-if-you-do-these-5-things-every-day.html">https://www.inc.com/justin-bariso/can-you-fix-a-toxic-workplace-you-can-if-you-do-these-5-things-every-day.html</a><br>
+                                <a href="https://ec.europa.eu/jrc/en/news/soil-erosion-decreases-soils-capacity-fight-global-warming">https://ec.europa.eu/jrc/en/news/soil-erosion-decreases-soils-capacity-fight-global-warming</a><br>
+                                <a href="https://www.reviewjournal.com/news/news-columns/road-warrior/flooding-prompts-unlv-to-close-parking-spots/">https://www.reviewjournal.com/news/news-columns/road-warrior/flooding-prompts-unlv-to-close-parking-spots/</a><br>
+                                <a href="https://experiencelife.com/article/talking-trash/">https://experiencelife.com/article/talking-trash/</a><br>
+                                <a href="https://stormwatersystems.com/wp-content/uploads/2012/01/stormx_nets.jpg">https://stormwatersystems.com/wp-content/uploads/2012/01/stormx_nets.jpg</a><br>
+                                <a href="https://www.silt-barriers.com/stormdrainfilters.html">https://www.silt-barriers.com/stormdrainfilters.html</a><br>
+                                <a href="https://blog.phoenixcontact.com/marketing-sea/2017/04/doing-more-than-just-providing-data-partnership-between-iiot-and-water-management/">https://blog.phoenixcontact.com/marketing-sea/2017/04/doing-more-than-just-providing-data-partnership-between-iiot-and-water-management/</a><br>
+                                <a href="https://www.thehealthsite.com/diseases-conditions/food-poisoning-causes-risk-factors-and-diagnosis-f1015-339368/">https://www.thehealthsite.com/diseases-conditions/food-poisoning-causes-risk-factors-and-diagnosis-f1015-339368/</a><br>
+                                <a href="https://www.newsweek.com/california-water-sources-contaminated-potentially-deadly-forever-chemicals-1461695">https://www.newsweek.com/california-water-sources-contaminated-potentially-deadly-forever-chemicals-1461695</a><br>
+                                <a href="https://dissolve.com/video/Money-stacks-bundles-falling-pile-dollars-USA-royalty-free-stock-video-footage/001-D1830-8-021">https://dissolve.com/video/Money-stacks-bundles-falling-pile-dollars-USA-royalty-free-stock-video-footage/001-D1830-8-021</a><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="page-footer pt-4 themeChangeToggle"> <!--footer for sources in page-->
+            <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">   <!--html forms-->
+                        <button class="btn btn-secondary btn-md"><a class="formAnchor" href="/htdocs/forms/f1.html">Leave a Comment!</a></button>
+                        <button class="btn btn-secondary btn-md"><a class="formAnchor" href="/htdocs/forms/f2.html">Sign up for our newsletter!</a></button>
+                    </div>
+                </div>
+
+            <div class="footer-copyright text-center py-3">     <!--copyright section-->
+                © 2020 Copyright: Atienza, Santelices, Vergara. 9-Potassium 2023.
+            </div>
+        </footer>
+        
+        <script src="/js/js.js"></script>   <!--js-->
+    </body>
+</html>

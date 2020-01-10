@@ -67,66 +67,57 @@
             </nav>
         </header>
         
-        <div id="home">     <!--landing page-->
-            <div class="landing-text">
-                <h1>The Philippine's Drainage System</h1>
-                <p><em>It's an absolute mess.</em></p>
-                <button class="btn btn-outline-primary btn-md" id="startButton"><a href="p1.html" id="startAnchor">Start Reading</a></button>
-            </div>
-        </div> 
-        
-        <footer class="page-footer pt-4 themeChangeToggle">     <!--footer for sources in page-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h3>Page Sources</h3>
-                    </div>
-                    <br><br>
+        <div class="formPadding">
+            <form action="" class="main-form needs-validation" novalidate>
+                <legend>Sign up!</legend>
+                <div class="form-group">
+                    <label for="firstname">Firstname</label>
+                    <input type="text" name="firstname" id="firstname" class="form-control" required>
+                    <div class="invalid-feedback">Please enter yout first name.</div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <p>
-                            <a href="https://www.pngguru.com/free-transparent-background-png-clipart-ejeke">https://www.pngguru.com/free-transparent-background-png-clipart-ejeke</a><br>
-                            <a href="https://commons.wikimedia.org/wiki/File:Flooding_from_Typhoon_Ondoy_(Ketsana),_Philippines_2009._Photo-_AusAID_(10695830893).jpg">https://commons.wikimedia.org/wiki/File:Flooding_from_Typhoon_Ondoy_(Ketsana),_Philippines_2009._Photo-_AusAID_(10695830893).jpg</a>
-                        </p>
-                    </div>
 
+                <div class="form-group">
+                        <label for="lastname">Lastname</label>
+                        <input type="text" name="lastname" id="lastname" class="form-control" required>
+                        <div class="invalid-feedback">Please enter yout last name.</div>  
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">   <!--html forms-->
-                        <button class="btn btn-secondary btn-md"><a class="formAnchor" href="/htdocs/forms/f1.html">Leave a Comment!</a></button>
-                        <button class="btn btn-secondary btn-md"><a class="formAnchor" href="/htdocs/forms/f2.html">Sign up for our newsletter!</a></button>
-                    </div>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" class="form-control" required>
+                    <div class="invalid-feedback">Please enter a valid username.</div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" required>
+                    <div class="invalid-feedback">Please enter a valid password.</div>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender" class="form-control">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary" required>Submit</button>
+            </form>
+        </div>
+        
+        <footer class="page-footer pt-4 themeChangeToggle"> <!--footer for sources in page-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">   <!--html form-->
+                    <button class="btn btn-secondary btn-md"><a class="formAnchor" href="/htdocs/forms/f1.html">Leave a comment!</a></button>
                 </div>
             </div>
-            
             <div class="footer-copyright text-center py-3">     <!--copyright section-->
                 © 2020 Copyright: Atienza, Santelices, Vergara. 9-Potassium 2023.
             </div>
         </footer>
         
-        <script src="/js/js.js"></script>  <!--js-->
+        <script src="/js/js.js"></script>   <!--js-->
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
