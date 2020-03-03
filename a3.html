@@ -2,7 +2,7 @@
 <html>
     <head> <!--meta tags-->
         <meta charset="utf-8">
-        <meta name="description" content="CS3 Q2 Project of K04, K14, and K20.">
+        <meta name="description" content="Philippine Drainage System">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Persus Atienza, John Patrick Santelices, Gian Paolo Vergara">
         <title>Philippine Drainage System</title>   <!--page title-->
@@ -18,15 +18,15 @@
     </head>
     
     <body class="themeChangeToggle">    
-          <header class="sticky-top themeChangeToggle">   <!--header and navbar-->
+        <header class="sticky-top themeChangeToggle">   <!--header and navbar-->
             <nav class="container nav navbar-expand-md navbar-light navbar-style sticky-top themeChangeToggle">
                 <a href="#"><img src="icon.png"></a>    <!--icon navbar 'brand'-->
                 <!--theme change button-->
                 <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle" type="button" id="themeButton"><i class="fas fa-palette"></i></button>
                 <!--font size increase button   ONLY VISIBLE IN MD AND LG SCREENS-->
-                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-lg-block" type="button" id="fontUpButton">Font <i class="fas fa-arrow-up"></i></button>
+                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-md-block" type="button" id="fontUpButton">Font <i class="fas fa-arrow-up"></i></button>
                 <!--font size decrease button   ONLY VISIBLE IN MD AND LG SCREENS-->
-                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-lg-block" type="button" id="fontDownButton">Font <i class="fas fa-arrow-down"></i></button>
+                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-md-block" type="button" id="fontDownButton">Font <i class="fas fa-arrow-down"></i></button>
                 <!--navbar collapsing menu button-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -49,8 +49,6 @@
                                 <a class="dropdown-item" href="p4.html">Water Security</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="p5.html">Locations</a>
-								<div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="p6.html">Types</a>
                             </div>
                         </li>
                         <li class="nav-item">                            
@@ -64,119 +62,56 @@
                                 <a class="dropdown-item" href="a2.html">Bibliography</a>
                             </div>
                         </li>
-						<li class="nav-item">                            
-                            <a class="nav-link" href="v.html">Voting</a>  <!--website voting-->
-                        </li>
                     </ul>
                 </div>
             </nav>
         </header>
-     
-        <section>   <!--page head/title-->
+        
+        <main>
+            <section>   <!--page head/title-->
                 <div class="headingPadding">
                     <div class="container">
                         <div class="row mx-auto">
                             <div class="col-xs-12 mx-auto">
-                                <h1 class="heading">Location</h1>
+                                <h1 class="heading">Vote for our website!</h1>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="padding"></div>
             </section>
-        
-        <main>      <!--page main-->
-            <section>   <!--section 1-->
-                <div class="padding">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> <!--one col for xs-sm, 2 cols for mg-lg-->
-                                <h3>Pisay</h3>
-                                <p>In Pisay or Philippine Science High School (Main Campus), the notable areas that normally get flooded is the parking lot and the areas around the dorm. We plan on of course, putting drainage systems around those areas to reduce flooding in the school.</p>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> <!--one col for xs-sm, 2 cols for mg-lg-->
-                                <img class="img-responsive rounded" src="p5_img1.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
+            <section>
+				<div class="padding">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 mx-auto voteCol">
+								<h3>Click on the button to be redirected to a Google Form. Vote for "Philippine Drainage Syetem: It's an Absolute Mess" on both "Best in Content" and "Best in Design"!</h3>
+							</div>
+							
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 mx-auto">
+								<button class="btn btn-info btn-lg vote"><a class="formAnchor voteAnchor" href="https://forms.gle/UD12aHNTfs4MTn1k9">Vote now!</a></button>
+							</div>
+							
+						</div>
+					</div>
+				</div>
             </section>
-
-            <section>   <!--section 2-->
-                <div class="padding">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                <h3>Outside Pisay</h3>
-                                <p>These drainages will be placed in populated areas near bodies of water since the weather easily affects the rise of water which may experience floods often. Well populated areas with heavy flooding and/or lots of trash will also have these drainages constructed for obvious reasons.</p>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                <img class="img-responsive rounded" src="p5_img2.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-			<div class="nextPage">
-				<button onclick="location.href = 'p4.html';" id="nextButton" class="btn btn-primary btn-md submit-button" >Previous Page</button>
-				<button onclick="location.href = 'p6.html';" id="nextButton" class="btn btn-primary btn-md submit-button" >Next Page</button>
-			</div>
         </main>
         
-        <br><br><br>
-        
-         <footer class="page-footer pt-4 themeChangeToggle"> <!--footer for sources in page-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">   <!--one col for xs-sm, 2 cols for md-lg-->
-                        <h3>Page Sources</h3>
-                    </div>
-                    <br><br>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <p>
-                            <a href="https://www.reviewjournal.com/news/news-columns/road-warrior/flooding-prompts-unlv-to-close-parking-spots/">https://www.reviewjournal.com/news/news-columns/road-warrior/flooding-prompts-unlv-to-close-parking-spots/</a><br>
-                            <a href="https://experiencelife.com/article/talking-trash/">https://experiencelife.com/article/talking-trash/</a><br>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
+        <footer class="page-footer pt-4 themeChangeToggle"> <!--footer for sources in page-->
+            <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">   <!--html forms-->
                         <button class="btn btn-secondary btn-md"><a class="formAnchor" href="f1.html">Leave a Comment!</a></button>
                         <button class="btn btn-secondary btn-md"><a class="formAnchor" href="f2.html">Sign up for our newsletter!</a></button>
-                        <button class="btn btn-secondary btn-md"><a class="formAnchor" href="v.html">Vote for our website!</a></button>
                     </div>
                 </div>
 
-                <div class="footer-copyright text-center py-3">     <!--copyright section-->
-                    © 2020 Copyright: Atienza, Santelices, Vergara. 9-Potassium 2023.
-                </div>
+            <div class="footer-copyright text-center py-3">     <!--copyright section-->
+                © 2020 Copyright: Atienza, Santelices, Vergara. 9-Potassium 2023.
             </div>
         </footer>
-       
+        
         <script src="js.js"></script>   <!--js-->
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

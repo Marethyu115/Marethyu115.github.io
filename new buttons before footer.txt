@@ -1,0 +1,62 @@
+index.html: exchange button
+
+<button class="btn btn-outline-primary btn-md" id="startButton"><a href="p1.html" id="startAnchor">Start Reading</a></button>
+
+
+p1: add buttons after /section before /main
+
+	<div class="nextPage">
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="index.html" id="startAnchor">Previous Page</a></button>
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p2.html" id="startAnchor">Next Page</a></button>
+	</div>
+
+
+p2: add buttons after /section before /main
+
+	<div class="nextPage">
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p1.html" id="startAnchor">Previous Page</a></button>
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p3.html" id="startAnchor">Next Page</a></button>
+	</div>
+
+
+p3: add buttons after /section before /main
+
+	<div class="nextPage">
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p2.html" id="startAnchor">Previous Page</a></button>
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p4.html" id="startAnchor">Next Page</a></button>
+	</div>
+
+
+p4: add buttons after /section before /main
+
+	<div class="nextPage">
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p3.html" id="startAnchor">Previous Page</a></button>
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p5.html" id="startAnchor">Next Page</a></button>
+	</div>
+
+
+p5: add buttons after /section before /main
+
+	<div class="nextPage">
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p4.html" id="startAnchor">Previous Page</a></button>
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p6.html" id="startAnchor">Next Page</a></button>
+	</div>
+
+p6: add buttons after /section before /main
+
+	<div class="nextPage">
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p5.html" id="startAnchor">Previous Page</a></button>
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="r.html" id="startAnchor">Read More</a></button>
+	</div>
+
+
+r: add buttons after /section before /main
+
+	<div class="nextPage">
+		<button class="btn btn-primary btn-md" id="nextButton"><a href="p6.html" id="startAnchor">Previous Page</a></button>
+	</div>
+
+
+
+
+

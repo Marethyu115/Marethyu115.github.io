@@ -18,15 +18,15 @@
     </head>
     
     <body class="themeChangeToggle">    
-        <header class="sticky-top themeChangeToggle">   <!--header and navbar-->
+         <header class="sticky-top themeChangeToggle">   <!--header and navbar-->
             <nav class="container nav navbar-expand-md navbar-light navbar-style sticky-top themeChangeToggle">
                 <a href="#"><img src="icon.png"></a>    <!--icon navbar 'brand'-->
                 <!--theme change button-->
                 <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle" type="button" id="themeButton"><i class="fas fa-palette"></i></button>
                 <!--font size increase button   ONLY VISIBLE IN MD AND LG SCREENS-->
-                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-md-block" type="button" id="fontUpButton">Font <i class="fas fa-arrow-up"></i></button>
+                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-lg-block" type="button" id="fontUpButton">Font <i class="fas fa-arrow-up"></i></button>
                 <!--font size decrease button   ONLY VISIBLE IN MD AND LG SCREENS-->
-                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-md-block" type="button" id="fontDownButton">Font <i class="fas fa-arrow-down"></i></button>
+                <button class="btn btn-sm align-middle ml-auto mr-3 order-md-last order-lg-last themeChangeToggle d-none d-lg-block" type="button" id="fontDownButton">Font <i class="fas fa-arrow-down"></i></button>
                 <!--navbar collapsing menu button-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -49,6 +49,8 @@
                                 <a class="dropdown-item" href="p4.html">Water Security</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="p5.html">Locations</a>
+								<div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="p6.html">Types</a>
                             </div>
                         </li>
                         <li class="nav-item">                            
@@ -62,11 +64,14 @@
                                 <a class="dropdown-item" href="a2.html">Bibliography</a>
                             </div>
                         </li>
+						<li class="nav-item">                            
+                            <a class="nav-link" href="v.html">Voting</a>  <!--website voting-->
+                        </li>
                     </ul>
                 </div>
             </nav>
         </header>
-        
+     
         <main>
             <section>   <!--page head/title-->
                 <div class="headingPadding">
@@ -101,10 +106,12 @@
                             <p>Patinio, F. (2019, September 4). DPWH completes P19-M drainage system in Manila. Retrieved from: <br>
                                 <a href="https://www.pna.gov.ph/articles/1079563">https://www.pna.gov.ph/articles/1079563</a>       
                             </p>
-							<p>
-								Ritter, J. (2012, October). Soil Erosion – Causes and Effects. Retrieved from:
+							<p>Ritter, J. (2012, October). Soil Erosion – Causes and Effects. Retrieved from:
 								<a href="http://www.omafra.gov.on.ca/english/engineer/facts/12-053.htm">http://www.omafra.gov.on.ca/english/<br>engineer/facts/12-053.htm</a>   
-							</p>							
+							</p>
+							<p>The Three Major Types of Plumbing Systems (n.d.). Retrieved from: <br>
+								<a href="https://www.dmsplumbinglasvegas.com/the-three-major-types-of-plumbing-systems/">https://www.dmsplumbinglasvegas.com/the-three-major-types-of-plumbing-systems/</a>
+							</p>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <p>
@@ -123,18 +130,26 @@
                                 <a href="https://www.thehealthsite.com/diseases-conditions/food-poisoning-causes-risk-factors-and-diagnosis-f1015-339368/">https://www.thehealthsite.com/diseases-conditions/food-poisoning-causes-risk-factors-and-diagnosis-f1015-339368/</a><br>
                                 <a href="https://www.newsweek.com/california-water-sources-contaminated-potentially-deadly-forever-chemicals-1461695">https://www.newsweek.com/california-water-sources-contaminated-potentially-deadly-forever-chemicals-1461695</a><br>
                                 <a href="https://dissolve.com/video/Money-stacks-bundles-falling-pile-dollars-USA-royalty-free-stock-video-footage/001-D1830-8-021">https://dissolve.com/video/Money-stacks-bundles-falling-pile-dollars-USA-royalty-free-stock-video-footage/001-D1830-8-021</a><br>
+								<a href="link">link</a><br>
+								<a href="link">link</a><br>
+								<a href="link">link</a><br>
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
+			<div class="nextPage">
+				<button onclick="location.href = 'a2.html';" id="nextButton" class="btn btn-primary btn-md submit-button" >Previous Page</button>
+				<button onclick="location.href = 'v.html';" id="nextButton" class="btn btn-primary btn-md submit-button" >Next Page</button>
+			</div>
         </main>
         
         <footer class="page-footer pt-4 themeChangeToggle"> <!--footer for sources in page-->
-            <div class="row">
+           <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">   <!--html forms-->
                         <button class="btn btn-secondary btn-md"><a class="formAnchor" href="f1.html">Leave a Comment!</a></button>
                         <button class="btn btn-secondary btn-md"><a class="formAnchor" href="f2.html">Sign up for our newsletter!</a></button>
+                        <button class="btn btn-secondary btn-md"><a class="formAnchor" href="v.html">Vote for our website!</a></button>
                     </div>
                 </div>
 
