@@ -32,7 +32,7 @@ fontUpButton.addEventListener("click",                         //increments the 
     fontPercent = fontPercent + 10                             //adds numeric value
     fontPercentIn = fontPercent + "%"                          //places the percent sign as a string
     fontSizeChange.style.fontSize = fontPercentIn              //sets the value of the font size to the new size
-	localStorage.setItem("fontSize", fontPercentIn)
+	localStorage.setItem("fontSize", fontPercent)
 })
 
 fontDownButton.addEventListener("click",                       //decrements the font size by 10% per click
@@ -40,7 +40,7 @@ fontDownButton.addEventListener("click",                       //decrements the 
     fontPercent = fontPercent - 10                             //subtracts numeric value
     fontPercentIn = fontPercent + "%"                          //places the percent sign as a string
     fontSizeChange.style.fontSize = fontPercentIn              //sets the value of the font size to the new size
-	localStorage.setItem("fontSize", fontPercentIn)
+	localStorage.setItem("fontSize", fontPercent)
 }) 
 
 
