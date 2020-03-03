@@ -39,7 +39,7 @@ fontDownButton.addEventListener("click",                       //decrements the 
     fontPercentIn = fontPercent + "%"                          //places the percent sign as a string
     fontSizeChange.style.fontSize = fontPercentIn              //sets the value of the font size to the new size
 	localStorage.setItem("fontSize", fontPercentIn)
-})
+}) 
 
 
 
