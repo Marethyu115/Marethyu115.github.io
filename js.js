@@ -11,7 +11,7 @@ var fontPercent = 100                                          //numeric value f
 var fontPercentIn                                              //value to be inputted in the css via js
 
 if (localStorage.getItem("ival") !== null){
-	themeChange.style.background = color[parsefloat(localStorage.getItem("ival"))]
+	themeChange.style.background = color[localStorage.getItem("ival")]
 }
 
 themeButton.addEventListener("click",                          //changes the background color to the color with the index number in array onclick
@@ -22,7 +22,7 @@ themeButton.addEventListener("click",                          //changes the bac
 })
 
 if (localStorage.getItem("fontSize") !== null){
-	fontSizeChange.style.fontSize = parseFloat(localStorage.getItem("fontSize"))
+	fontSizeChange.style.fontSize = localStorage.getItem("fontSize")
 }
 
 fontUpButton.addEventListener("click",                         //increments the font size by 10% per click
