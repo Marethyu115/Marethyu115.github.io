@@ -24,7 +24,7 @@ themeButton.addEventListener("click",                          //changes the bac
 
 if (localStorage.getItem("fontSize") !== null){
 	fontSizeChange.style.fontSize = localStorage.getItem("fontSize")
-	fontPercentIn = localStorage.getItem("fontSize")
+	fontPercent = localStorage.getItem("fontSize")
 }
 
 fontUpButton.addEventListener("click",                         //increments the font size by 10% per click
