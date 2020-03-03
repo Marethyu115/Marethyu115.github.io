@@ -14,17 +14,23 @@ if (localStorage.getItem("ival") !== null){
 	themeChange.style.background = color[localStorage.getItem("ival")]
 	i = localStorage.getItem("ival")
 } 
+else{
+	localStorage.setItem("ival", 0)
+}
 
 themeButton.addEventListener("click",                          //changes the background color to the color with the index number in array onclick
     function(){
     i=i < color.length ? ++i :0                                //increments i every click and resets i to 0 if its value exceeds the length value of the array
     themeChange.style.background = color[i]                    //sets the background to color[i]
-	localStorage.setItem("ival", i)
+	localStorage.ival = i
 })
 
 if (localStorage.getItem("fontSize") !== null){
 	fontSizeChange.style.fontSize = localStorage.getItem("fontSize") + "%"
 	fontPercent = localStorage.getItem("fontSize")
+}
+else{
+	localStorage.setItem("fontSize", 0)
 }
 
 fontUpButton.addEventListener("click",                         //increments the font size by 10% per click
@@ -32,7 +38,7 @@ fontUpButton.addEventListener("click",                         //increments the 
     fontPercent = fontPercent + 10                             //adds numeric value
     fontPercentIn = fontPercent + "%"                          //places the percent sign as a string
     fontSizeChange.style.fontSize = fontPercentIn              //sets the value of the font size to the new size
-	localStorage.setItem("fontSize", fontPercent)
+	localStorage.fontSize = fontPercent
 })
 
 fontDownButton.addEventListener("click",                       //decrements the font size by 10% per click
@@ -40,7 +46,7 @@ fontDownButton.addEventListener("click",                       //decrements the 
     fontPercent = fontPercent - 10                             //subtracts numeric value
     fontPercentIn = fontPercent + "%"                          //places the percent sign as a string
     fontSizeChange.style.fontSize = fontPercentIn              //sets the value of the font size to the new size
-	localStorage.setItem("fontSize", fontPercent)
+	localStorage.fontSize = fontPercent
 }) 
 
 
