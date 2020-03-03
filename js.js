@@ -27,7 +27,7 @@ themeButton.addEventListener("click",                          //changes the bac
 
 if (localStorage.getItem("fontSize") !== null){
 	fontSizeChange.style.fontSize = localStorage.getItem("fontSize") + "%"
-	fontPercent = parseFloat(localStorage.getItem("fontSize"))
+	fontPercent = localStorage.getItem("fontSize")
 }
 else{
 	localStorage.setItem("fontSize", 0)
@@ -35,7 +35,7 @@ else{
 
 fontUpButton.addEventListener("click",                         //increments the font size by 10% per click
     function(){
-    fontPercent = fontPercent + 10                             //adds numeric value
+    fontPercent = parseFloat(fontPercent) + 10                             //adds numeric value
     fontPercentIn = fontPercent + "%"                          //places the percent sign as a string
     fontSizeChange.style.fontSize = fontPercentIn              //sets the value of the font size to the new size
 	localStorage.fontSize = fontPercent
@@ -43,7 +43,7 @@ fontUpButton.addEventListener("click",                         //increments the 
 
 fontDownButton.addEventListener("click",                       //decrements the font size by 10% per click
     function(){
-    fontPercent = fontPercent - 10                             //subtracts numeric value
+    fontPercent = parseFloat(fontPercent) - 10                             //subtracts numeric value
     fontPercentIn = fontPercent + "%"                          //places the percent sign as a string
     fontSizeChange.style.fontSize = fontPercentIn              //sets the value of the font size to the new size
 	localStorage.fontSize = fontPercent
