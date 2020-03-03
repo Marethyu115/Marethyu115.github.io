@@ -30,7 +30,7 @@ if (localStorage.getItem("fontSize") !== null){
 	fontPercent = localStorage.getItem("fontSize")
 }
 else{
-	localStorage.setItem("fontSize", 0)
+	localStorage.setItem("fontSize", 100)
 }
 
 fontUpButton.addEventListener("click",                         //increments the font size by 10% per click
