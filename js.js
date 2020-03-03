@@ -13,7 +13,7 @@ var fontPercentIn                                              //value to be inp
 if (localStorage.getItem("ival") !== null){
 	themeChange.style.background = color[localStorage.getItem("ival")]
 	i = localStorage.getItem("ival")
-}
+} 
 
 themeButton.addEventListener("click",                          //changes the background color to the color with the index number in array onclick
     function(){
